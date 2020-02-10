@@ -15,6 +15,7 @@ import { ProductAlertsComponent } from './product-alerts/product-alerts.componen
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
       { path: 'products/:productId', component: ProductDetailsComponent },
+      { path: 'cart', component: CartComponent },
     ])
   ],
   declarations: [
